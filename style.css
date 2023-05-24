@@ -1,6 +1,9 @@
-html{
-  height: 75vh;
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
   display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -9,7 +12,8 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: end;
-  padding: 1px;
+  padding: 10px;
+  gap: 20px;
 }
 
 main {
@@ -19,11 +23,10 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
 }
 
 footer{
-  width: 178vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: end;
@@ -67,7 +70,7 @@ input{
 }
 
 .btn{
-  width: auto;
+  width: 100%;
   padding: 10px;
   border: 1px ;
   border-radius: 8px;
@@ -79,7 +82,7 @@ input{
   color: #3c4043;
 }
 .btn:hover{
-  width: auto;
+  width: 100%;
   padding: 9px;
   border: 1px;
   border-radius: 8px;
@@ -94,13 +97,11 @@ input{
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  padding-right: 15px ;
   color: #3c4043;
 }
 
 svg {
   width: 40px;
-  padding-right: 15px;
 }
 
 .footer-top{
@@ -108,21 +109,20 @@ svg {
   display: flex;
   background-color: #e9e9e9;
   align-items: start;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 .footer-bottom{
-  width: 175vh;
+  width: 100%;
   display: flex;
   background-color: #e9e9e9;
   justify-content: space-between;
   flex-direction: row;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
 }
 
 .footer-bottom-left {
-  width: 50%;
+  width: 100%;
   display: flex;
   background-color: #e9e9e9;
   justify-content: start;
@@ -131,7 +131,7 @@ svg {
 }
 
 .footer-bottom-right {
-  width: 50%;
+  width: 100%;
   display: flex;
   background-color: #e9e9e9;
   justify-content: end;
