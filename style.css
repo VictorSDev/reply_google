@@ -1,9 +1,15 @@
 body{
   width: 100%;
   height: 100vh;
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   margin: 0;
+=======
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+>>>>>>> 65c5a1f63c3f3d605a569b9a2ab8d6b3a72f61af
 }
 
 header {
@@ -12,6 +18,11 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: end;
+<<<<<<< HEAD
+=======
+  padding: 10px;
+  gap: 20px;
+>>>>>>> 65c5a1f63c3f3d605a569b9a2ab8d6b3a72f61af
 }
 
 #wrapper {
@@ -26,6 +37,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+<<<<<<< HEAD
   justify-content: space-between;
   gap: 20px;
 }
@@ -42,6 +54,17 @@ footer{
   width: auto;  
   padding: 1em;
   background-color: #e9e9e9;
+=======
+  justify-content: center;
+}
+
+footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+>>>>>>> 65c5a1f63c3f3d605a569b9a2ab8d6b3a72f61af
 }
 
 input{
@@ -81,7 +104,7 @@ input{
 }
 
 .btn{
-  width: auto;
+  width: 100%;
   padding: 10px;
   border: 1px ;
   border-radius: 8px;
@@ -93,7 +116,7 @@ input{
   color: #3c4043;
 }
 .btn:hover{
-  width: auto;
+  width: 100%;
   padding: 9px;
   border: 1px;
   border-radius: 8px;
@@ -117,19 +140,35 @@ svg {
 }
 
 .footer-top{
+<<<<<<< HEAD
   width: auto;
   padding: 1em;
 }
 
 .footer-bottom{
   width: auto;
+=======
+  width: 100%;
+  display: flex;
+  background-color: #e9e9e9;
+  align-items: start;
+  padding-left: 20px;
+}
+
+.footer-bottom{
+  width: 100%;
+>>>>>>> 65c5a1f63c3f3d605a569b9a2ab8d6b3a72f61af
   display: flex;
   flex-direction: row;
+<<<<<<< HEAD
   padding: 1em;
+=======
+  padding-left: 20px;
+>>>>>>> 65c5a1f63c3f3d605a569b9a2ab8d6b3a72f61af
 }
 
 .footer-bottom-left {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: start;
   flex-direction: row;
@@ -137,7 +176,7 @@ svg {
 }
 
 .footer-bottom-right {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: end;
   flex-direction: row;
